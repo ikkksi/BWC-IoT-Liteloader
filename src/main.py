@@ -3,7 +3,9 @@ import json
 
 from libs import bot
 from libs.loger import aloger
-p_ad = "ws://127.0.0.1:2048"
+
+
+p_ad = "ws://10.61.114.50:2048"
 my_app = bot.App(name="LiteLoader",auth_key="caixukun66",uri=p_ad)
 
 
